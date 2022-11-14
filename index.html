@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/7a29fbec-ace0-4818-9452-673972bc5b96/%E6%8D%95%E8%8E%B7.JPG?v=1656899377188"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Becky Chen</title>
+
+    <style>
+      .fadein {
+        position: aboslute;
+      }
+      .becky {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+        box-shadow: 0px 0px 50px rgba(225, 225, 225, 0.5);
+      }
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+      position:absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .fadein:hover .becky {
+        opacity: 0.3;
+      }
+
+      .fadein:hover .middle {
+        opacity: 1;
+      }
+
+      #more {
+        background-color: #4caf50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        width: 200px;
+      }
+
+      .active {
+        background-color: #659dbd;
+      }
+    </style>
+  </head>
+
+  <body class="background" style="margin-top: 10px">
+    <div class="container">
+      <h1 style="color: white">
+        <a href="index.html" style="text-decoration: none"
+          ><img
+            id="logo"
+            src="https://cdn.glitch.global/7a29fbec-ace0-4818-9452-673972bc5b96/%E6%8D%95%E8%8E%B7.JPG?v=1656899377188"
+            href="index.html" /></a
+        ><a href="index.html" style="text-decoration: none; color: white"
+          >Becky Chen</a
+        >
+      </h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html" class="link active">Home</a></li>
+          <li><a href="projects.html" class="link">Projects</a></li>
+          <li><a href="about.html" class="link">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 fadein d-flex justify-content-center">
+          <div id="wrap">
+          <img
+            class="becky"
+            src="https://cdn.glitch.global/7a29fbec-ace0-4818-9452-673972bc5b96/1d35fa7b7aa7160b3548f82a2baf79e.jpg?v=1656915177962"
+            alt="Photo of Becky Chen"
+            style="width: 400px; height:auto; margin-top: 30px"
+          />
+          <div class="middle">
+            <div id="more" style="text-align: center; margin-top: 30px">
+              <a href="about.html" class="link" style="color: white"
+                >Learn more about Becky Chen</a
+              >
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-7 col-md-12"
+          style="margin-top: auto; color: #0d313b"
+        >
+          <h3 style="color: white">
+            <br />
+            - A Computer Science Enthusiast who enjoys being a positive force to
+            others through technology and actions -
+          </h3>
+          <hr style="background-color: white; height: 2.4px" />
+
+          <p style="font-size: 20px">
+            Being able to explore various fields of sciences, I found myself
+            especially passionate about
+            <b>computer science</b>. More specifically,
+            <i>human-computer interactive designing</i>
+            and
+            <i>being a positive force to others through computer science</i>
+            are paths I direct my passion and goals. <br /><br />I have done
+            various interesting
+            <a href="projects.html" style="color: #137c9c">projects</a> and this
+            portfolio serves as a portal to display myself and my work. <br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer class="container.fluid footerall">
+      <a
+        href="https://www.linkedin.com/in/becky-chen-b62765192"
+        class="fa fa-linkedin-square icon"
+        target="_blank"
+        style="color: black"
+      ></a>
+
+      <a
+        href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=bc103@wellesley.edu"
+        class="fa fa-envelope-square icon"
+        target="_blank"
+        style="color: black"
+      >
+      </a>
+      <span>
+        <a
+          href="https://www.linkedin.com/in/becky-chen-b62765192"
+          target="_blank"
+          >Get in touch with me!</a
+        ></span
+      >
+      <a
+        href="https://www.instagram.com/beckychenbecky/"
+        class="fa fa-instagram icon"
+        target="_blank"
+        style="color: black"
+      >
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=100072288427757&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_transition=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"
+        class="fa fa-facebook-square icon"
+        target="_blank"
+        style="color: black"
+      >
+      </a>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
